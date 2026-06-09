@@ -1,0 +1,36 @@
+body{
+    background-color: deepskyblue;
+}
+#order{
+    text-align: center;
+    background-color: white;
+    width: 85%;
+    height: 60%;
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+.font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: deepskyblue;
+    transition: all.5s;
+}
+.font:hover{
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.358);
+}
+.btn{
+    background-color: deepskyblue;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 22%;
+    border: none;
+    width: 75px;
+    height: 39px;
+    transition: all.5s;
+}
+.btn:hover{
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}

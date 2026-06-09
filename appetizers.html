@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appetizers</title>
+    <style>
+        *{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    text-align: center;
+    }
+    :root{
+    --first-color:#E76F51;
+    --second-color:black;
+    --main-color:#F4A261;
+    --text-color:white;
+    }
+    #header{
+        background-color: var(--first-color);
+        width: 99%;
+        height: 19vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:5px solid var(--first-color);
+        border-radius: 30px;
+    }
+    h1{
+        color: var(--text-color);
+        padding: 20px;
+    }
+    .b1, .b2, .b3, .b4{
+        padding: .5px 15px;
+        padding-top:.5px ;
+        width: 220px;
+        height: 420px;
+        border-radius: 30px;
+        margin: 20px auto;
+        background-color: var(--first-color);
+        color:var(--text-color);
+    }
+    .b1{
+        height: 370px;
+    }
+    .b2{
+        height: 340px;
+    }
+    .b3{
+        height: 370px;
+    }
+    .b4{
+        height: 360px;
+    }
+    @media(max-width:430px){
+        .b1, .b2, .b3, .b4{
+            transform: translateX(-30%);
+            width: 40%;
+            height: 450px;
+        }
+        #header{
+            width: 65%;
+            height: 20vh;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="header"><h1>Appetizers</h1></div>
+
+    <div class="b1">
+        <h3>🧀 Cheese & Charcuterie</h3>
+        <p>
+Cheese Platter – Assorted cheeses with fruits, nuts, and crackers<br><br>
+
+Charcuterie Board – Cured meats, pickles, olives, mustards, and crostini<br><br>
+
+Mozzarella Sticks – Breaded and fried mozzarella served with marinara<br><br>
+
+Baked Brie – Warm brie cheese with honey, nuts, or fruit compote</p>
+    </div>
+    
+    <div class="b2">
+        <h3>🍤 Seafood Appetizers</h3>
+        <p>
+Shrimp Cocktail – Chilled shrimp with tangy cocktail sauce<br><br>
+
+Calamari – Lightly fried squid rings with lemon and aioli or marinara<br><br>
+
+Crab Cakes – Pan-seared cakes made from lump crab meat<br><br>
+
+Oysters – Served raw on the half shell or baked/grilled</p>
+    </div>
+    <div class="b3">
+         <h3>🥗 Light & Fresh</h3>
+        <p>
+Caprese Salad – Fresh mozzarella, tomatoes, basil, and balsamic glaze<br><br>
+
+Bruschetta – Toasted bread topped with diced tomatoes, garlic, and basil<br><br>
+
+Stuffed Grape Leaves (Dolma) – Rice and herb-stuffed vine leaves<br><br>
+
+Hummus & Pita – Creamy chickpea dip served with warm pita bread</p>
+    </div>
+    <div class="b4">
+         <h3>🍗 Hot & Hearty</h3>
+        <p>
+Chicken Wings – Tossed in buffalo, BBQ, or garlic parmesan sauce<br><br>
+
+Sliders – Mini burgers with cheese, pickles, and special sauce<br><br>
+
+Potato Skins – Baked potato halves topped with cheese and bacon<br><br>
+
+Stuffed Mushrooms – Filled with garlic breadcrumbs, cheese, or sausage</p>
+    </div>
+    </div>
+</body>
+</html>

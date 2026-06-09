@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger</title>
+    <style>
+        *{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    text-align: center;
+    }
+    :root{
+    --first-color:#E76F51;
+    --second-color:black;
+    --main-color:#F4A261;
+    --text-color:white;
+    }
+    #header{
+        background-color: var(--first-color);
+        width: 99%;
+        height: 19vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:5px solid var(--first-color);
+        border-radius: 30px;
+    }
+    h1{
+        color: var(--text-color);
+        padding: 20px;
+    }
+    .b1, .b2, .b3, .b4{
+        padding: .5px 15px;
+        padding-top:.5px ;
+        width: 220px;
+        height: 420px;
+        border-radius: 30px;
+        margin: 20px auto;
+        background-color: var(--first-color);
+        color:var(--text-color);
+    }
+    .b1{
+        height: 300px;
+    }
+    .b2{
+        height: 370px;
+    }
+    .b3{
+        height: 320px;
+    }
+    .b4{
+        height: 250px;
+    }
+    @media(max-width:430px){
+        .b1, .b2, .b3, .b4{
+            transform: translateX(-30%);
+            width: 40%;
+            height: 450px;
+        }
+        #header{
+            width: 65%;
+            height: 20vh;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="header"><h1>Burger</h1></div>
+
+    <div class="b1">
+        <h3>Beef burger</h3>
+        <p>Our signature beef burger features a perfectly seasoned, juicy beef patty, grilled to your liking, and nestled in a soft, toasted bun. Topped with fresh lettuce, ripe tomato, crisp onion, and tangy pickles, it's the timeless taste you crave. Customize it with your favorite cheese, bacon, or our special sauces!</p>
+    </div>
+    
+    <div class="b2">
+        <h3>Cheese burger</h3>
+        <p>Here are a few descriptions for a cheeseburger, tailored for a burger website, ranging in tone from classic to more enticing:Our Signature Cheeseburger
+The ultimate classic for a reason. Sink your teeth into a perfectly seasoned, juicy beef patty grilled to your liking, then topped with a generous slice of melting cheese. All nestled in a soft, toasted bun and ready for your favorite fresh toppings. It's the comforting, cheesy delight you crave.</p>
+    </div>
+    <div class="b3">
+         <h3>Chicken burger</h3>
+        <p>Sink your teeth into a delightful alternative to beef with our fantastic chicken burger. We start with a tender, juicy chicken patty, perfectly seasoned and cooked to a golden crisp or grilled to perfection. It's nestled in a soft, toasted bun and ready for your favorite fresh toppings. A lighter, yet incredibly satisfying, burger experience.</p>
+    </div>
+    <div class="b4">
+         <h3>Turkey Burger</h3>
+        <p> A delicious, leaner alternative to traditional beef. Our turkey burgers are crafted from seasoned ground turkey, offering a milder flavor profile that pairs beautifully with fresh, vibrant toppings. Often praised for being a healthier option without sacrificing satisfaction.</p>
+    </div>
+    </div>
+</body>
+</html>

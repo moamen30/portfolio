@@ -1,0 +1,166 @@
+body{
+    background-color: deepskyblue;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.container{
+    background-color: white;
+    width: 85%;
+    height: 131%;
+    position: relative;
+    left: 7%;
+    top: 6%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    margin-bottom: 2%;
+}
+.container2{
+    background-color: white;
+    width: 85%;
+    height: 87%;
+    position: relative;
+    left: 7%;
+    top: 6%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    margin-bottom: 2%;
+}
+#navbar{
+    background-color: #333;
+    width: 100%;
+    height: 43%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.navs{
+    position: absolute;
+    top: 22%;
+    left: -25%;
+    width: 100%;
+    height: 100%;
+}
+#logo{
+    position: absolute;
+    top: -6%;
+    left: -2%;
+    width: 14%;
+    height: 39%;
+}
+.nav{
+    text-decoration: none;
+    background-color: deepskyblue;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    top: 32%;
+    transition: all .5s;
+    margin-left: 2vw;
+}
+.nav:hover{
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    padding: 8px;
+}
+#products{
+    left: 56%;
+    margin-left: -3vw;
+}
+#contact{
+    left: 80%;
+    margin-left: 3vw;
+}
+#about{
+    left: 87%;
+    margin-left: 5vw;
+}
+#order1{
+    left: 64%;
+    margin-left: -1vw;
+}
+#community{
+    left: 70%;
+    margin-left: 1vw;
+}
+#heading{
+    font-size: 32px;
+    font-family: Arial, sans-serif;
+    color: white;
+    position: absolute;
+    top: 3%;
+    left: 32%;
+}
+#text{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 42%;
+    left: 17%;
+}
+#img1{
+    position: absolute;
+    top: 43%;
+    left: 29%;
+    width: 71%;
+    height: 57%;
+}
+.c{
+    position: absolute;
+    top: -80%;
+    left: -38%;
+    width: 1%;
+    height: 248%;
+    border-radius: 50%;
+    background-color: deepskyblue;
+}
+.triangle{
+    position: absolute;
+    top: 49%;
+    left: -29%;
+    width: 0;
+    height: 0;
+    border-top: 126px solid transparent;
+    border-bottom: 119px solid transparent;
+    border-left: 417px solid deepskyblue;
+}
+.qu{
+    text-align: center;
+}
+#d1{
+    color:white;
+    text-align: center;
+    background-color: rgb(0, 57, 77);
+    width: 25%;
+    height: 76%;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+}
+#d2{
+    color:white;
+    text-align: center;
+    background-color: rgb(0, 131, 179);
+    width: 25%;
+    height: 76%;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+#d3{
+    color:white;
+    text-align: center;
+    background-color: rgb(51, 201, 255);
+    width: 25%;
+    height: 76%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+#d4{
+    color:white; 
+    text-align: center;
+    background-color: rgb(179, 235, 255);
+    width: 25%;
+    height: 76%;
+    position: absolute;
+    top: 10%;
+    left: 75%;
+}

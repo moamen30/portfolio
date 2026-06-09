@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasta</title>
+    <style>
+        *{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    text-align: center;
+    }
+    :root{
+    --first-color:#E76F51;
+    --second-color:black;
+    --main-color:#F4A261;
+    --text-color:white;
+    }
+    #header{
+        background-color: var(--first-color);
+        width: 99%;
+        height: 19vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:5px solid var(--first-color);
+        border-radius: 30px;
+    }
+    h1{
+        color: var(--text-color);
+        padding: 20px;
+    }
+    .b1, .b2, .b3, .b4{
+        padding: .5px 15px;
+        padding-top:.5px ;
+        width: 220px;
+        height: 420px;
+        border-radius: 30px;
+        margin: 20px auto;
+        background-color: var(--first-color);
+        color:var(--text-color);
+    }
+    .b1{
+        height: 370px;
+    }
+    .b2{
+        height: 300px;
+    }
+    .b3{
+        height: 280px;
+    }
+    .b4{
+        height: 300px;
+    }
+    @media(max-width:430px){
+        .b1, .b2, .b3, .b4{
+            transform: translateX(-30%);
+            width: 40%;
+            height: 450px;
+        }
+        #header{
+            width: 65%;
+            height: 20vh;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="header"><h1>Pasta</h1></div>
+
+    <div class="b1">
+        <h3>Spaghetti pasta</h3>
+        <p>Spaghetti Pasta
+Classic Italian long-cut pasta, cooked al dente and served with your choice of sauce. This traditional favorite features thin, tender strands that perfectly capture the rich flavors of our signature house-made sauces — from zesty marinara and hearty Bolognese to creamy Alfredo or garlic-infused olive oil. Finished with freshly grated Parmesan and herbs for an authentic touch.</p>
+    </div>
+    
+    <div class="b2">
+        <h3>Penne Pasta</h3>
+        <p>Penne Pasta
+Short, tube-shaped pasta with angled ends and ridged sides, perfect for holding onto rich, flavorful sauces. Served al dente and tossed with your choice of classic marinara, spicy arrabbiata, creamy Alfredo, or savory pesto. A versatile favorite that’s perfect baked or sautéed, and always satisfying.</p>
+    </div>
+    <div class="b3">
+         <h3>Linguine pasta</h3>
+        <p>Linguine Pasta
+Elegant, flat strands of pasta slightly wider than spaghetti, offering a delicate texture that pairs beautifully with both light and creamy sauces. Traditionally served with fresh seafood, pesto, or garlic-infused olive oil. A coastal Italian classic that brings out the best in every ingredient.</p>
+    </div>
+    <div class="b4">
+         <h3>Ziti Pasta</h3>
+        <p>Ziti Pasta
+Smooth, medium-sized tubular pasta, perfect for absorbing rich sauces and baked to perfection. Traditionally used in hearty oven-baked dishes, ziti pairs wonderfully with layers of marinara, creamy ricotta, melted mozzarella, and a touch of fresh basil. Comfort food at its finest — warm, cheesy, and satisfying.</p>
+    </div>
+    </div>
+</body>
+</html>

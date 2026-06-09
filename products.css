@@ -1,0 +1,157 @@
+body{
+    background-color: #333;
+}
+.container{
+    background-color: whitesmoke;
+    width: 85%;
+    height: 90%;
+    position: absolute;
+    left: 7%;
+    top: 6%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+#airforce{
+    background-color: white;
+    position: absolute;
+    top: 26%;
+    left: 2%;
+    height: 53%;
+    width: 21%;
+    transition: all 1s;
+}
+#airforce:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+#airforceimg{
+    height: 45%;
+    width: 77%;
+    position: absolute;
+    left: 9%;
+}
+#airforcetext{
+    position: absolute;
+    top: 40%;
+    left: 23%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.294);
+}
+#jordan4{
+    background-color: white;
+    position: absolute;
+    top: 26%;
+    left: 26%;
+    transition: all 1s;
+    height: 53%;
+    width: 21%;
+}
+#jordan4:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+#jordan4img{
+    height: 45%;
+    width: 52%;
+    position: absolute;
+    left: 24%;
+}
+#jordan4text{
+    position: absolute;
+    top: 40%;
+    left: 23%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.294);
+}
+#jordan1    {
+    background-color: white;
+    position: absolute;
+    top: 26%;
+    left: 52%;
+    transition: all 1s;
+    height: 53%;
+    width: 21%;
+}
+#jordan1:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+#jordan1img{
+    height: 45%;
+    width: 52%;
+    position: absolute;
+    left: 24%;
+}
+#jordan1text{
+    position: absolute;
+    top: 40%;
+    left: 23%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.294);
+}
+#campus{
+    background-color: white;
+    position: absolute;
+    top: 26%;
+    left: 77%;
+    transition: all 1s;
+    height: 53%;
+    width: 21%;
+}
+#campus:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+#campusimg{
+    height: 30%;
+    width: 60%;
+    position: absolute;
+    left: 17%;
+    top: 10%;
+}
+#campustext{
+    position: absolute;
+    top: 40%;
+    left: 23%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.294);
+}
+#price1{
+    position: absolute;
+    top: 66%;
+    left: 35%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightblue;
+}#price2{
+    position: absolute;
+    top: 66%;
+    left: 35%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightblue;
+}#price3{
+    position: absolute;
+    top: 66%;
+    left: 35%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightblue;
+}#price4{
+    position: absolute;
+    top: 66%;
+    left: 35%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightblue;
+}
+#img1{
+    position: absolute;
+    top: 11%;
+    right: 14%;
+    width: 23%;
+    height: 22%;
+}
+#sale{
+    color: red;
+    position: absolute;
+    top: 56%;
+    left: 33%;
+}
+.buy{
+    position: absolute;
+    top: 82%;
+    left: 28%;
+    background-color: lightblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

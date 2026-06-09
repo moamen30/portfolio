@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinks</title>
+    <style>
+        *{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    text-align: center;
+    }
+    :root{
+    --first-color:#E76F51;
+    --second-color:black;
+    --main-color:#F4A261;
+    --text-color:white;
+    }
+    #header{
+        background-color: var(--first-color);
+        width: 99%;
+        height: 19vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:5px solid var(--first-color);
+        border-radius: 30px;
+    }
+    h1{
+        color: var(--text-color);
+        padding: 20px;
+    }
+    .b1, .b2, .b3, .b4{
+        padding: .5px 15px;
+        padding-top:.5px ;
+        width: 220px;
+        height: 420px;
+        border-radius: 30px;
+        margin: 20px auto;
+        background-color: var(--first-color);
+        color:var(--text-color);
+    }
+    .b1{
+        height: 280px;
+    }
+    .b2{
+        height: 300px;
+    }
+    .b3{
+        height: 270px;
+    }
+    .b4{
+        height: 260px;
+    }
+    @media(max-width:430px){
+        .b1, .b2, .b3, .b4{
+            transform: translateX(-30%);
+            width: 40%;
+            height: 450px;
+        }
+        #header{
+            width: 65%;
+            height: 20vh;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="header"><h1>Drinks</h1></div>
+
+    <div class="b1">
+        <h3>🥛 Milkshake</h3>
+        <p>Thick, creamy, and irresistibly smooth—our milkshake is made with rich ice cream and fresh milk, blended to perfection. Choose from classic flavors like vanilla, chocolate, or strawberry, and enjoy a nostalgic treat that never goes out of style.</p>
+    </div>
+    
+    <div class="b2">
+        <h3>🧃 Fresh Juices</h3>
+        <p>Experience nature in every sip with our freshly squeezed juices. Made from premium fruits and vegetables, our juices are packed with flavor, nutrients, and vibrant color—perfect for a healthy refreshment any time of day. No added sugars, no preservatives—just pure, delicious goodness straight from the source.</p>
+    </div>
+    <div class="b3">
+         <h3>🧋 Iced Drinks</h3>
+        <p>Cool down with our refreshing selection of iced drinks—perfectly chilled and full of flavor. From smooth iced coffees to creamy iced chocolates and fruity cold brews, each drink is crafted to deliver the perfect balance of taste and refreshment. Whether you're looking to energize or simply chill out, we’ve got your cold cravings covered.</p>
+    </div>
+    <div class="b4">
+         <h3>🥤 Soft Drinks</h3>
+        <p>Enjoy a classic selection of chilled soft drinks to complement any meal. From timeless cola to crisp lemon-lime sodas, our bubbly beverages deliver the perfect balance of sweetness and refreshment. Served ice-cold for a satisfying and familiar taste every time.</p>
+    </div>
+    </div>
+</body>
+</html>

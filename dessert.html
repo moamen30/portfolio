@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desserts</title>
+    <style>
+        *{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    text-align: center;
+    }
+    :root{
+    --first-color:#E76F51;
+    --second-color:black;
+    --main-color:#F4A261;
+    --text-color:white;
+    }
+    #header{
+        background-color: var(--first-color);
+        width: 99%;
+        height: 19vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:5px solid var(--first-color);
+        border-radius: 30px;
+    }
+    h1{
+        color: var(--text-color);
+        padding: 20px;
+    }
+    .b1, .b2, .b3, .b4{
+        padding: .5px 15px;
+        padding-top:.5px ;
+        width: 220px;
+        height: 420px;
+        border-radius: 30px;
+        margin: 20px auto;
+        background-color: var(--first-color);
+        color:var(--text-color);
+    }
+    .b1{
+        height: 280px;
+    }
+    .b2{
+        height: 300px;
+    }
+    .b3{
+        height: 270px;
+    }
+    .b4{
+        height: 260px;
+    }
+    @media(max-width:430px){
+        .b1, .b2, .b3, .b4{
+            transform: translateX(-30%);
+            width: 40%;
+            height: 450px;
+        }
+        #header{
+            width: 65%;
+            height: 20vh;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="header"><h1>Desserts</h1></div>
+
+    <div class="b1">
+        <h3>Brownies</h3>
+        <p>Rich, fudgy squares of decadent chocolate baked to perfection — crisp on the edges with a soft, gooey center. Made with premium cocoa and real butter, our brownies are a timeless treat, served warm and optionally topped with a scoop of vanilla ice cream and a drizzle of chocolate sauce.</p>
+    </div>
+    
+    <div class="b2">
+        <h3>Ice Cream</h3>
+        <p>A classic frozen dessert made from rich cream and real ingredients, churned to smooth, creamy perfection. Choose from a variety of timeless and seasonal flavors, including velvety vanilla, decadent chocolate, and refreshing strawberry. Served by the scoop and perfect on its own or paired with your favorite dessert.
+
+</p>
+    </div>
+    <div class="b3">
+         <h3>Rice Pudding</h3>
+        <p>A warm and comforting classic made with slow-cooked rice, fresh milk, and a touch of sugar, gently simmered to creamy perfection. Lightly spiced with cinnamon and vanilla, and finished with a sprinkle of raisins or a dash of nutmeg for a timeless, homestyle dessert.</p>
+    </div>
+    <div class="b4">
+         <h3>Molten Cake</h3>
+        <p>A rich, individual chocolate cake with a soft, gooey center that flows like molten lava when cut open. Baked to perfection and served warm with a dusting of powdered sugar and a scoop of vanilla ice cream. A decadent dessert for true chocolate lovers.</p>
+    </div>
+    </div>
+</body>
+</html>
